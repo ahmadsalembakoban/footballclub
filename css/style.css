@@ -14,6 +14,10 @@
     color: #f04646;
     border: 1px solid #f04646;
 }
+/* font color white */
+.white {
+    color: #fff;
+}
 /* setting text */
 .textCenter {
     text-align: center;
