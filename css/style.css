@@ -1,165 +1,32 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box; 
-}
-body{
-    font-size: 20px;
-    overflow-x: hidden;
-    color: white;
-}
-header{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('../img/img1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-.clearfix:after{
-    content: "";
-    visibility: hidden;
-    display: block;
-    height: 0px;
-    clear: both;
-}
-.row{
-    max-width: 1180px;
-    margin: 0 auto;
-}
-.logo{
-    height: 80px;
-    width: auto;
-    float: left;
-    margin-top: 30px;
-}
-.main-nav{
-    float: right;
-    margin-top: 60px;
-}
-.main-nav li{
-    display: inline-block;
-    list-style: none;
-    margin-left: 40px;
-    margin-right: 20px;
-}
-.main-nav li a{
-    color: #fff;
-    padding: 5px 0;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-size: 90%;
-    font-weight: 100;
-}
-.main-nav li a:hover{
-    border-bottom: 2px solid #ec3434;
-    color: #ec3434;
-    font-weight: 100;
-}
-.main-content-header{
-    width: 1180px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-h1{
-    color: #fff;
-    font-size: 240%;
-    word-spacing: 5px;
-    letter-spacing: 3px;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-    font-family: 'Caveat', cursive;
-}
-.btn{
-    display: inline-block;
-    padding: 10px 30px;
-    font-weight: lighter;
-    text-decoration: none;
-    border-radius: 200px;
-    transition: background-color 0.2s, border 0.2s, color 0.2;
-}
-.btn-full{
-    background-color: transparent;
-    color: #ec3434;
-    margin-right: 15px;
-    border: 1px solid #ec3434;
-}
-.btn-full:hover{
-    background: #fff;
-}
-.btn-nav{
-    background: transparent;
-    color: #fff;
-    border: 1px solid #fff;
-}
-.btn-nav:hover{
-    background: #ec3434;
-}
-.colorchange{
-    animation: colorchangeahmad 1s infinite;
-}
-@keyframes colorchangeahmad{
-    0%{
-        color: red;
-    }
-    25%{
-        color: #ec3434;
-    }
-    50%{
-        color: white;
-    }
-    100%{
-        color: #ec3434;
-    }
-}
-.mobile-icon{
-    display: none;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-/* responsive mobile queries */
-@media(max-width: 1180px){
-    .main-content-header{
-        width: 100%;
-        padding: 0 2%;
-    }
+/* color setting */
+.primary {
+    background: #f04646;
+    color: #fff;
+    border: none;
 }
-@media(max-width: 998px){
-    h1{
-        font-size: 200%;
-    }
+.primary:hover {
+    background: #fff;
+    color: #f04646;
+    border: 1px solid #f04646;
 }
-@media(max-width: 768px){
-    .main-nav{
-        display: none;
-    }
-    .mobile-icon{
-        display: block;
-        color: #fff;
-        float: right;
-        margin-top: 30px;
-        margin-right: 20px;
-    }   
-    .main-nav{
-        float: left;
-    }
-    .main-nav li{
-        display: block;
-        margin-top: 10px;
-    }
-    .main_nav li:hover{
-        border-bottom: 2px solid #ec3434;
-        color: #ec3434;
-        font-weight: 100;
-    }
+/* setting text */
+.textCenter {
+    text-align: center;
 }
-@media(max-width: 480px){
-    .btn-full{
-        margin-right: 20px;
-    }
-    h1{
-        font-size: 160%;
-    }
+.borderR {
+    border: 1px solid red;
 }
+.borderB {
+    border: 1px solid blue;
+}
+.margintop {
+    margin-top: 4rem;
+}
+/* card image */
 
 
